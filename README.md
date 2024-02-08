@@ -1,30 +1,31 @@
-# This project has been moved to [remix-galaxy](https://github.com/rphlmr/remix-galaxy/tree/main/playgrounds/remix-hono-vite)
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <div style="display: flex; gap: 20px;">
+    <img src="https://remix.run/img/og.1.jpg" alt="Remix Logo" width="200"/>
+    <img src="https://avatars.githubusercontent.com/u/98495527?s=200&v=4" alt="Hono Logo" width="100"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="Vite Logo" width="100"/>
+  </div>
+  <div style="height: 20px;"></div> <!-- Gap between rows -->
+  <div style="display: flex; gap: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript Logo" width="100"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS Logo" width="100"/>
+  </div>
+</div>
+<br/>
 
+<h1>Remix + Hono + Vite + Typescript + TailwindCSS
+<br/>
+Starter Template</h1>
 
+This is a starter template for [Remix](https://remix.run) with [Hono](https://hono.dev) via the [remix-hono](https://remix.run/resources/remix-+-hono) middleware and the [@hono/vite-dev-server](https://github.com/honojs/vite-plugins/tree/main/packages/dev-server) plugin
 
-# Welcome to Remix + Vite + Hono!
-
-This is a demo of [remix-hono](https://github.com/sergiodxa/remix-hono) with Vite. 
-
-It uses [Hono Vite dev server](https://github.com/honojs/vite-plugins/blob/main/packages/dev-server/README.md) with HTTPS
-
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
-
-
-https://github.com/rphlmr/remix-hono-vite/assets/20722140/9f368237-ca35-4faf-a14f-58fb4320487b
-
-
-## Try it
-
-```shellscript
-npx create-remix@latest --template rphlmr/remix-hono-vite
-```
+See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
 
 ## How it works
+
 - On the local dev, you rely on [Hono Vite dev server](https://github.com/honojs/vite-plugins/blob/main/packages/dev-server/README.md)
-  - With HTTPS self signed certificate
-- When building, `server/build.ts` bundles `server/index.ts` and `server/middlewares.ts` to `build/server/index.js`
-  - If you deploy with Docker, it should be as easy as just copying the `build` folder and `node_modules`.
+- When building, `server/build.ts` bundles 
+  `server/index.ts` and `server/middlewares.ts` to `build/server/index.js`
+- If you deploy with Docker, it should be as easy as just copying the `build` folder and `node_modules`.
 
 ## Development
 
