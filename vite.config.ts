@@ -6,10 +6,6 @@ import devServer, { defaultOptions } from "@hono/vite-dev-server";
 export default defineConfig({
   server: {
     port: 3000,
-    https: {
-      key: "./server/dev/key.pem",
-      cert: "./server/dev/cert.pem",
-    },
   },
   plugins: [
     remix({
