@@ -1,0 +1,12 @@
+.cache
+.env
+.vercel
+.output
+
+/build/
+/public/
+/app/tailwind.css
+
+/coverage
+.vscode/
+pnpm-lock.yaml
